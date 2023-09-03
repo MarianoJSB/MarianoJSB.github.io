@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: "Archivo";
+    background-color: rgba(45, 42, 92, 0.904);
+}
+
+
+h1{
+    padding: 3rem;
+    font-size: 2.5em;
+    color: gold;
+}
+
+h3{
+    padding-bottom: 2rem;
+    font-size: 2em;
+    color: gold;
+}
+
+button{
+    border: 5px groove gold;
+    border-radius: 10px;
+    height: 70px;
+    padding: 1rem;
+    margin-left: 3rem;
+    background-color: tomato;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+}
