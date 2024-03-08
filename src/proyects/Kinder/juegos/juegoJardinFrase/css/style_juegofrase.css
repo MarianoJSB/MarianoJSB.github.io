@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../imagenes/fondo.jpg) fixed center center ;
+    background-repeat: none;
+    background-position: cover;
+}
+
+#sentence-container{
+    background-color: #FFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.word{
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.word:hover{
+    background-color: rgb(48, 82, 216);
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.section_buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#word-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.correcto{
+    color: rgb(14, 150, 14);
+    font-weight: 900;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.error{
+    color: rgb(218, 42, 42);
+    font-weight: 900;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#check-button, #next-button, #play-button{
+    font-weight: 500;
+}
+
+#check-button{
+    background-color: rgb(14, 14, 121);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: #FFF
+}
+
+#check-button:hover{
+    background-color: rgb(9, 9, 86);
+}
+
+#next-button{
+    background-color: rgb(54, 204, 31);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: #FFF
+}
+
+#next-button:hover{
+    background-color: rgb(36, 147, 19);
+}
+
+#play-button{
+    background-color: rgb(35, 65, 187);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: #FFF
+}
+
+#play-button:hover{
+    background-color: rgb(21, 51, 170);
+}
+
+#image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+h2{
+    font-family: 'Lilita One', cursive;
+    color: #fff;
+}

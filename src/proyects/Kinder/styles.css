@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgb(214, 214, 181);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: white;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+
+.juegos #imagenFondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    animation: anim-body 20s infinite linear;
+}
+
+@keyframes anim-body {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20vh);
+    }
+
+
+    100% {
+        transform: translateY(0vh);
+    }
+}
+
+
+.juegos{
+    width: 100%;
+    height: max-content;
+    overflow-x: hidden;
+}
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+    font-family: 'Lilita One', cursive;
+    font-weight: 100;
+    position: fixed;
+    top: 0;
+}
+
+nav{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .izquierda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header .izquierda img{
+    width: 100px;
+}
+
+
+header .izquierda h1{
+    font-size: 60px;
+    color: #1E90FF;
+}
+
+/* Aca empiezan los colores del h1 */
+
+.spanRojo{
+    color: #DC143C;
+}
+
+.spanVerde{
+    color: #008000;
+}
+
+.spanRosa{
+    color: #DDA0DD;
+}
+
+header .derecha{
+    display: flex;
+    flex-direction: row;
+}
+
+header .derecha h3{
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+header .derecha h3:hover{
+    transition: 0.5s;
+    color: red;
+}
+
+header .derecha .h3rojo{
+    color: #DC143C;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+.contenido {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 25vh;
+    display: flex;
+    flex-wrap: wrap; /* Esto permite que las tarjetas se muevan hacia abajo */
+    justify-content: center;
+  }
+  
+  .tarjetaJuegos {
+    width: 250px; 
+    height: 250px;
+    margin-right: 50px;
+    margin-bottom: 20px; 
+    box-sizing: border-box; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Lilita One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .videos{
+    width: 250px; /* Ancho fijo de 400px para las tarjetas */
+    height: 250px;
+    margin-right: 50px;
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+    box-sizing: border-box; /* Para incluir el borde en el ancho total */
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Lilita One', cursive;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+  }
+
+  .tarjetaJuegos h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .informacion{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+  }
+
+  .informacion .contenidoInformacion{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25vh;
+  }
+
+  .informacion .contenidoInformacion h1{
+    font-size: 60px;
+    color: #1E90FF;
+    font-family: 'Lilita One', cursive;
+    font-weight: 100;
+  }
+
+  .informacion .contenidoInformacion p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+ footer{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .informacion .contenidoInformacion footer p{
+    text-decoration: underline;
+    color: black;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .informacion .contenidoInformacion footer img{
+    width: 50px;
+    display: flex;
+    align-self: left;
+  }
+
+  @media only screen and (max-width: 630px) {
+    nav{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    nav .izquierda{
+        margin-top: 40px;
+    }
+
+    nav .izquierda h1{
+        font-size: 40px;
+    }
+
+    nav .izquierda img{
+        width: 80px;
+    }
+
+    nav .derecha{
+       flex-direction: column;
+       align-items: center;
+       padding-bottom: 30px;
+    }
+
+    nav .derecha h3{
+        display: flex;
+        margin-left: 0;
+    }
+
+    .tarjetaJuegos{
+        width: 200px;
+        height: 200px;
+        margin-right: 0;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        border-radius: 7px;
+        background-color: rgb(214, 214, 181);
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 7px;
+        background-color: white;
+    }
+
+    .informacion .contenidoInformacion h1{
+        font-size: 45px;
+    }
+  }

@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../IMG/fondo.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: 20s anim-body;
+    animation-iteration-count: infinite;
+}
+@keyframes anim-body{
+    0%{
+        background-position: top;
+    }
+    100%{
+        background-position: bottom;
+    }
+}
+/* cajas de juegos */
+
+.cajaMadre_Juego1,
+.cajaMadre_Juego2,
+.cajaMadre_Juego3{
+    display: none;
+}
+
+/* header y logo */
+header{
+    background-color: white;
+    box-shadow: 0 0 8px black;
+    width: 100%;
+    padding: 20px;
+}
+#titulo{
+    font-family: 'Lilita One';
+    font-weight: 200;
+    text-align: center;
+    font-size: 60px;
+    animation: 0.5s anim-letras;
+    width: 80%;
+    margin: auto;
+    user-select: none;
+}
+
+
+@keyframes anim-letras{
+    0%{
+        transform: scale(0.0);
+    }
+    70%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+#titulo_1{
+    color: crimson;
+    text-decoration: underline 10px crimson;
+}
+
+#titulo_2{
+    color: green;
+    text-decoration: underline 10px green;
+}
+#titulo_3{
+    color: teal;
+    text-decoration: underline 10px teal;
+}
+#titulo_4{
+    color: plum;
+    text-decoration: underline 10px plum;
+}
+#titulo_5{
+    color: yellowgreen;
+    text-decoration: underline 10px yellowgreen;
+}
+#titulo_6{
+    color: dodgerblue;
+    text-decoration: underline 10px dodgerblue;
+}
+#titulo_7{
+    color: orange;
+    text-decoration: underline 10px orange;
+}
+
+.contGeneral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+/* menú de juegos */
+
+section{
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 80%;
+    display: flex;
+}
+article{
+    width: 34%;
+    padding: 15px;
+    padding-bottom: 100px;
+    cursor: pointer;
+}
+
+article hr{
+    margin: 15px;
+}
+#juego1 hr{
+    border: 2px solid rgb(129, 0, 26);
+}
+#juego2 hr{
+    border: 2px solid rgb(65, 97, 0);
+}
+#juego3 hr{
+    border: 2px solid rgb(0, 64, 128);
+}
+article h2, article h4{
+    font-family: 'Lilita One';
+    color: white;
+    text-align: center;
+}
+article h2{
+    font-weight: 500;
+}
+article h4{
+    font-weight: 100;
+}
+article img{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+article h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 190px;
+    text-align: center;
+    transition: 0.2s transform ease-in-out;
+    cursor: pointer;
+}
+article h1:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+article #juego1_text{
+    color: rgb(53, 0, 11);
+    font-size: 190px;
+}
+article #juego2_text{
+    color: rgb(35, 53, 0);
+    -webkit-text-stroke: 3px rgb(35, 53, 0);
+}
+article #juego3_text{
+    color: rgb(0, 31, 61);
+}
+#juego1{
+    background: rgb(220,20,60);
+    background: linear-gradient(180deg, rgba(220,20,60,1) 0%, rgba(142,0,28,1) 100%);
+    animation: 0.5s anim-juego1;
+}
+#juego2{
+    background: rgb(154,205,50);
+    background: linear-gradient(180deg, rgba(154,205,50,1) 0%, rgba(99,148,0,1) 100%);
+    animation: 0.5s anim-juego2;
+}
+#juego3{
+    background: rgb(30,144,255);
+    background: linear-gradient(180deg, rgba(30,144,255,1) 0%, rgba(0,74,145,1) 100%);
+    animation: 0.5s anim-juego3;
+}
+@keyframes anim-juego1{
+    0%{
+        transform: scale(0.0);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+@keyframes anim-juego2{
+    0%{
+        transform: scale(0.0);
+    }
+    30%{
+        transform: scale(0.0);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+@keyframes anim-juego3{
+    0%{
+        transform: scale(0.0);
+    }
+    60%{
+        transform: scale(0.0);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}

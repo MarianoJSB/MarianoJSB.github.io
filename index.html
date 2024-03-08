@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Style -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,9 +28,9 @@
       <nav class="nav" id="nav">
         <button class="cerrar" id="cerrar"><i class="fa-solid fa-xmark" style="color: #007bff;"></i></button>
         <ul class="list">
-          <li><a href="#home">About me</a></li>
-          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About me</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -41,88 +41,76 @@
         <article class="home">
           <div class="content">
             <h1>Mariano Aguiar</h1>
-            <h2>Software developer</h2>
-            <p>
-	      As an Argentinean software developer
-              my passion for technology ignited at the young age of 7. 
-              Specializing in backend development,
-	      designing batabases and bringing innovative solutions to life.
-            </p>
+            <h2>Software Developer</h2>
+            <p>As an Argentine software developer 
+              I bring months of valuable experience in the IT world, 
+              continuously striving for improvement and growth</p>
           </div>
           <div class="photoCotainer">
             <img class="photo" src="src/Photo.png" />
           </div>
         </article>
       </section>
-      <section id="skills">
-        <article class="skills">
+      <section id="about">
+        <article class="about">
           <div class="title">
-            <p>Ski<span class="light-blue">ll</span>s</p>
+            <p>Abou<span class="light-blue">t m</span>e</p>
           </div>
-          <div class="hardSkills">
-            <article class="sk1">
-              <h3  data-aos="fade-right">html</h3>
-              <h3 data-aos="fade-left">css</h3>
-            </article>
-            <hr />
-            <article class="sk2">
-              <h3  data-aos="fade-right">javascript</h3>
-              <h3 data-aos="fade-left">java</h3>
-            </article>
-            <hr />
-            <article class="sk3">
-              <h3  data-aos="fade-right">python</h3>
-              <h3 data-aos="fade-left">sql</h3>
-            </article>
-            <hr />
-            <article class="sk4">
-              <h3  data-aos="fade-right">php</h3>
-              <h3 data-aos="fade-left">git</h3>
-            </article>
-            <hr />
-            <article class="sk5">
-              <h3  data-aos="fade-right">node.js</h3>
-              <h3  data-aos="fade-left">react native</h3>
-            </article>
+          <div class="content">
+            <p>I'm a young man passionate about technology and computing.
+              I love to build programs that solve a need in society.
+            </p>
+            <p>I'm currently working for a small startup. 
+              This startup is about software development and UI/UX design.
+            </p>
+            <p>I specialize on backend development, database management and build the business logic on the web.
+            </p>
+            <p>
+              Now I'm learning about other branches of computer science such as desktop development and machine learning.
+            </p>
           </div>
         </article>
       </section>
       <section id="projects">
         <article class="projects">
           <div class="title">
-            <p>Proye<span class="light-blue">ct</span>s</p>
+            <p>Proje<span class="light-blue">ct</span>s</p>
           </div>
           <div class="projectsContent">
             <article class="p1">
-              <h3>Calculator</h3>
-              <p>Simple web Calculator</p>
+              <h3>Flit Application</h3>
+              <p>Multiplatform finance mobile app useful for keeping track of your cash (only code)</p>
               <div class="stack">
-                <div id="html">
-                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
-                  <p>HTML</p>
+                <div id="react">
+                  <i class="fa-brands fa-react" style="color: #fff; font-size: 1em"></i>
+                  <p>REACT NATIVE</p>
                 </div>
-                <div id="css">
-                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
-                  <p>CSS</p>
+                <div id="node">
+                  <i class="fa-brands fa-node-js" style="color: #fff; font-size: 1em"></i>
+                  <p>NODE.JS</p>
                 </div>
                 <div id="js">
                   <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
                   <p>JAVASCRIPT</p>
                 </div>
+                <div id="MySQL">
+                  <i class="fa-solid fa-database" style="color: #fff; font-size: 1em"></i>
+                  <p>MySQL</p>
+                </div>
                 <div id="link">
-                  <a href="https://github.com/MarianoJSB/calculator">
+                  <a href="https://github.com/ArielBritezDiaz/flit-application">
                     <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
                     CODE
                   </a>
                 </div>
               </div>
-              <a href="src/proyects/Calculator/index.html">
-                <img src="src/proyects-images/calculator.jpg" alt="Calculator" title="Calculator">
+              <a href="https://github.com/ArielBritezDiaz/flit-application">
+                <img src="src/proyects-images/flit.png" alt="flit" title="flit">
               </a>
             </article>
             <article class="p2">
-              <h3>CMF engines</h3>
-              <p>The perfect e-commerce for lovers of small engines</p>
+              <h3>CMF Engines</h3>
+              <p>The perfect e-commerce for colectors and car lovers</p>
               <div class="stack">
                 <div id="html">
                   <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
@@ -148,37 +136,12 @@
                 </div>
               </div>
               <a href="https://cmfengines.com.ar/">
-                <img src="src/proyects-images/cmf engines.jpg" alt="cmf engines" title="cmf engines">
+                <img src="src/proyects-images/cmf.png" alt="cmf engines" title="cmf engines">
               </a>
             </article>
             <article class="p3">
-              <h3>Dynamic websites</h3>
-              <p>A dynamic websites compilation developed with PHP</p>
-              <div class="stack">
-                <div id="html">
-                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
-                  <p>HTML</p>
-                </div>
-                <div id="css">
-                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
-                  <p>CSS</p>
-                </div>
-                <div id="php">
-                  <i class="fa-brands fa-php" style="color: #fff; font-size: 1em"></i>
-                  <p>PHP</p>
-                </div>
-                <div id="MySQL">
-                  <i class="fa-solid fa-database" style="color: #fff; font-size: 1em"></i>
-                  <p>MySQL</p>
-                </div>
-              </div>
-              <a href="https://dynamicwebsites.000webhostapp.com/">
-                <img src="src/proyects-images/php.jpg" alt="dynamic" title="dynamic">
-              </a>
-            </article>
-            <article class="p4">
-              <h3>Entrepreneurship landing page</h3>
-              <p>An Entrepreneurship that connects with the e-commerce</p>
+              <h3>CMF 3D</h3>
+              <p>An Entrepreneurship landing page. This is an CMF engines provider</p>
               <div class="stack">
                 <div id="html">
                   <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
@@ -200,12 +163,35 @@
                 </div>
               </div>
               <a href="https://marianojsb.github.io/cmf3d.github.io/">
-                <img src="src/proyects-images/cmf 3d.jpg" alt="cmf 3d" title="cmf 3d">
+                <img src="src/proyects-images/3d.png" alt="cmf 3d" title="cmf 3d">
+              </a>
+            </article>
+            <article class="p4">
+              <h3>CMF Engines C.R.U.D</h3>
+              <p>Desktop application that works as C.R.U.D of CMF engines articles (only code)</p>
+              <div class="stack">
+                <div id="html">
+                  <i class="fa-brands fa-java" style="color: #fff; font-size: 1em"></i>
+                  <p>JAVA</p>
+                </div>
+                <div id="MySQL">
+                  <i class="fa-solid fa-database" style="color: #fff; font-size: 1em"></i>
+                  <p>MySQL</p>
+                </div>
+                <div id="link">
+                  <a href="https://github.com/MarianoJSB/crud-java-jframe">
+                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
+                    CODE
+                  </a>
+                </div>
+              </div>
+              <a href="https://github.com/MarianoJSB/crud-java-jframe">
+                <img src="src/proyects-images/crud.png" alt="crud-cmfengines" title="crud-cmfengines">
               </a>
             </article>
             <article class="p5">
-              <h3>Formula 1 Api</h3>
-              <p>Formula 1 API consumption with javascript</p>
+              <h3>Formula 1 API</h3>
+              <p>Formula 1 API consumption, contains rankings, schedule and drivers information</p>
               <div class="stack">
                 <div id="html">
                   <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
@@ -227,154 +213,12 @@
                 </div>
               </div>
               <a href="https://marianojsb.github.io/F1-API.github.io/">
-                <img src="src/proyects-images/f1 api.jpg" alt="f1 api" title="f1 api">
+                <img src="src/proyects-images/f1.png" alt="f1 api" title="f1 api">
               </a>
             </article>
             <article class="p6">
-              <h3>Flit application</h3>
-              <p>Finance mobile app made in react native (only code)</p>
-              <div class="stack">
-                <div id="react">
-                  <i class="fa-brands fa-react" style="color: #fff; font-size: 1em"></i>
-                  <p>REACT NATIVE</p>
-                </div>
-                <div id="node">
-                  <i class="fa-brands fa-node-js" style="color: #fff; font-size: 1em"></i>
-                  <p>NODE.JS</p>
-                </div>
-                <div id="js">
-                  <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
-                  <p>JAVASCRIPT</p>
-                </div>
-                <div id="MySQL">
-                  <i class="fa-solid fa-database" style="color: #fff; font-size: 1em"></i>
-                  <p>MySQL</p>
-                </div>
-              </div>
-              <a href="https://github.com/ArielBritezDiaz/flit-application">
-                <img src="src/proyects-images/Flit.jpg" alt="flit" title="flit">
-              </a>
-            </article>
-            <article class="p7">
-              <h3>Voice recognition</h3>
-              <p>Voice recognition web</p>
-              <div class="stack">
-                <div id="html">
-                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
-                  <p>HTML</p>
-                </div>
-                <div id="css">
-                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
-                  <p>CSS</p>
-                </div>
-                <div id="js">
-                  <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
-                  <p>JAVASCRIPT</p>
-                </div>
-                <div id="link">
-                  <a href="https://github.com/MarianoJSB/voice-recognition">
-                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
-                    CODE
-                  </a>
-                </div>
-              </div>
-              <a href="src/proyects/Voice recognition/index.html">
-                <img src="src/proyects-images/voice recognition.jpg" alt="Voice" title="Voice">
-              </a>
-            </article>
-            <article class="p8">
-              <h3>Python programs in CLI</h3>
-              <p>Beginner Programs made in python</p>
-              <div class="stack">
-                <div id="python">
-                  <i class="fa-brands fa-python" style="color: #fff; font-size: 1em"></i>
-                  <p>PYTHON</p>
-                </div>
-              </div>
-              <a href="https://github.com/MarianoJSB/basic-python-programs">
-                <img src="src/proyects-images/python programs.jpg" alt="python-programs" title="python-programs">
-              </a>
-            </article>
-            <article class="p9">
-              <h3>Memory game</h3>
-              <p>The classic memory game with emojis</p>
-              <div class="stack">
-                <div id="html">
-                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
-                  <p>HTML</p>
-                </div>
-                <div id="css">
-                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
-                  <p>CSS</p>
-                </div>
-                <div id="js">
-                  <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
-                  <p>JAVASCRIPT</p>
-                </div>
-                <div id="link">
-                  <a href="https://github.com/MarianoJSB/memory_game">
-                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
-                    CODE
-                  </a>
-                </div>
-              </div>
-              <a href="src/proyects/Memory game/inicio.html">
-                <img src="src/proyects-images/memory.jpg" alt="memory-game" title="memory-game">
-              </a>
-            </article>
-            <article class="p10">
-              <h3>E-commerce CRUD</h3>
-              <p>CRUD of cmf engines made in Java with JFrame</p>
-              <div class="stack">
-                <div id="html">
-                  <i class="fa-brands fa-java" style="color: #fff; font-size: 1em"></i>
-                  <p>JAVA</p>
-                </div>
-                <div id="MySQL">
-                  <i class="fa-solid fa-database" style="color: #fff; font-size: 1em"></i>
-                  <p>MySQL</p>
-                </div>
-                <div id="link">
-                  <a href="https://github.com/MarianoJSB/crud-java-jframe">
-                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
-                    CODE
-                  </a>
-                </div>
-              </div>
-              <a href="">
-                <img src="src/proyects-images/crud cmf.png" alt="crud-cmfengines" title="crud-cmfengines">
-              </a>
-            </article>
-            <article class="p11">
-              <h3>Square game</h3>
-              <p>Similar to dino chrome</p>
-              <div class="stack">
-                <div id="html">
-                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
-                  <p>HTML</p>
-                </div>
-                <div id="css">
-                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
-                  <p>CSS</p>
-                </div>
-                <div id="js">
-                  <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
-                  <p>JAVASCRIPT</p>
-                </div>
-                <div id="link">
-                  <a href="https://github.com/MarianoJSB/square_game">
-                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
-                    CODE
-                  </a>
-                </div>
-              </div>
-              <a href="src/proyects/Square jump/index.html">
-                <img src="src/proyects-images/square.jpg" alt="square-game" title="square-game">
-              </a>
-            </article>
-            <article class="p12">
-              <h3>Rock, paper & scissors</h3>
-              <p>The classic game, you play against a bot</p>
+              <h3>Gaming Platform</h3>
+              <p>Video game platform for different ages and difficulties</p>
               <div class="stack">
                 <div id="html">
                   <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
@@ -389,36 +233,40 @@
                   <p>JAVASCRIPT</p>
                 </div>
               </div>
-              <a href="src/proyects/Rock, paper & scissors (dom)/index.html">
-                <img src="src/proyects-images/rps.jpg" alt="rock-paper-scissors" title="rock-paper-scissors">
+              <a href="gaming.html">
+                <img src="src/proyects-images/gaming.png" alt="platform" title="platform">
               </a>
             </article>
-            <article class="p13">
-              <h3>Treasure game</h3>
-              <p>Treasure game in a picture with clues</p>
-              <div class="stack">
-                <div id="html">
-                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
-                  <p>HTML</p>
-                </div>
-                <div id="css">
-                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
-                  <p>CSS</p>
-                </div>
-                <div id="js">
-                  <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
-                  <p>JAVASCRIPT</p>
-                </div>
-                <div id="link">
-                  <a href="https://github.com/MarianoJSB/treasure_game">
-                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
-                    CODE
-                  </a>
-                </div>
-              </div>
-              <a href="src/proyects/Treasure game/index.html">
-                <img src="src/proyects-images/find treasure.jpg" alt="find-treasure" title="find-treasure">
-              </a>
+          </div>
+        </article>
+      </section>
+      <section id="skills">
+        <article class="skills">
+          <div class="title">
+            <p>Ski<span class="light-blue">ll</span>s</p>
+          </div>
+          <div class="hardSkills">
+            <article class="sk1">
+              <h3  data-aos="fade-right">html</h3>
+              <h3  data-aos="fade-down">css</h3>
+              <h3  data-aos="fade-left">javascript</h3>
+            </article>
+            <hr />
+            <article class="sk2">
+              <h3 data-aos="fade-right">java</h3>
+              <h3  data-aos="fade-down">python</h3>
+              <h3 data-aos="fade-left">mYsql</h3>
+            </article>
+            <hr />
+            <article class="sk3">
+              <h3  data-aos="fade-right">php</h3>
+              <h3 data-aos="fade-down">node.js</h3>
+              <h3  data-aos="fade-left">express.js</h3>
+            </article>
+            <hr />
+            <article class="sk4">
+              <h3  data-aos="fade-right">git</h3>
+              <h3  data-aos="fade-left">react.js/native</h3>
             </article>
           </div>
         </article>

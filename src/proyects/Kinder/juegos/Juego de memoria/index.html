@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Memory game</title>
+</head>
+<body>
+    <a href="../../juegos.html" style="position: absolute; top: 0; left: 0; margin-top: 5px; margin-left: 5px; z-index: 999;"><img src="../../img/backArrow.png" style="width: 80px;" alt=""></a>
+    <main>
+        
+        <div class="mesa"></div>
+    </main>
+
+    <audio src="multimedia/sounds/acierto.mp3" class="sonido" id="sonido-acierto" preload="auto">
+    </audio>
+    <audio src="multimedia/sounds/error.mp3" class="sonido" id="sonido-desacierto" preload="auto">
+    </audio>
+    <audio src="multimedia/sounds/carta.mp3" class="sonido" id="sonido-carta" preload="auto">
+    </audio>
+
+    <script src="Juego/Tarjetas.js"></script>
+    <script src="Juego/Mezcla.js"></script>
+    <script src="Juego/Repartir.js"></script>
+    <script src="Juego/Descubrir.js"></script>
+    <script src="Juego/Comparar.js"></script>
+    <script src="Juego/Acierto.js"></script>
+    <script src="Juego/Inicio.js"></script>
+</body>
+</html>
