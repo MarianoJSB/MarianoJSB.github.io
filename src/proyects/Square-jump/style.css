@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+
+h1{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 50px 0;
+    text-decoration: underline #fff;
+}
+
+.game{
+    margin: 50px auto;
+    width: 600px;
+    height: 300px;
+    border: 4px dashed #fff;
+    overflow-x: hidden;
+    background-image: url(xd.jpg);
+    background-position: center;
+}
+
+#player{
+    width: 35px;
+    height: 55px;
+    background-color: red;
+    background-position: center;
+    position:relative;
+    top: 245px;
+    left: 25px;
+    border-radius: 4px;
+}
+
+.jump{
+    animation: jump 500ms infinite;
+}
+
+@keyframes jump{
+    0%{top: 245px;}
+    30%{top: 200px;}
+    70%{top: 200px;}
+    100%{top: 245px;}
+}
+
+#square{
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 220px;
+    left: 575px;
+    animation: square 1.5s infinite linear;
+    border-radius: 4px;
+}
+
+@keyframes square{
+    0%{left: 575px}
+    100%{left: -575px}
+}
+
+#score{
+    height: 30px;
+    width: 30px;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
