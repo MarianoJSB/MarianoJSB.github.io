@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=K2D:wght@700&family=KoHo&family=Montserrat&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <!-- Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="src/logo.ico" />
+    <title>Mariano Aguiar - Portfolio</title>
+  </head>
+  <body>
+    <!-- Header and Nav -->
+    <header class="header">
+      <img src="src/logo.png" class="logo" />
+      <button class="abrir" id="abrir"><i class="fa-solid fa-bars" style="color: #007bff;"></i></button>
+      <nav class="nav" id="nav">
+        <button class="cerrar" id="cerrar"><i class="fa-solid fa-xmark" style="color: #007bff;"></i></button>
+        <ul class="list">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Home, skills and proyects -->
+    <main>
+      <section id="home">
+        <article class="home">
+          <div class="content">
+            <h1>Mariano Aguiar</h1>
+            <h2>Software Developer</h2>
+            <p>As an Argentine software developer 
+              I bring months of valuable experience in the IT world, 
+              continuously striving for improvement and growth</p>
+          </div>
+          <div class="photoCotainer">
+            <img class="photo" src="src/Photo.png" />
+          </div>
+        </article>
+      </section>
+      <section id="about">
+        <article class="about">
+          <div class="title">
+            <p>Abou<span class="light-blue">t m</span>e</p>
+          </div>
+          <div class="content">
+            <p>I'm a young man passionate about technology and computing.
+              I love to build programs that solve a need in society.
+            </p>
+            <p>I'm currently working for a small startup. 
+              This startup is about software development and UI/UX design.
+            </p>
+            <p>I specialize on backend development, database management and build the business logic on the web.
+            </p>
+            <p>
+              Now I'm learning about other branches of computer science such as desktop development and machine learning.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="projects">
+        <article class="projects">
+          <div class="title">
+            <p>Proje<span class="light-blue">ct</span>s</p>
+          </div>
+          <div class="projectsContent">
+            <article class="p1">
+              <h3>Flit Application</h3>
+              <p>Multiplatform finance mobile app useful for keeping track of your cash (only code)</p>
+              <div class="stack">
+                <div id="react">
+                  <i class="fa-brands fa-react" style="color: #fff; font-size: 1em"></i>
+                  <p>REACT NATIVE</p>
+                </div>
+                <div id="node">
+                  <i class="fa-brands fa-node-js" style="color: #fff; font-size: 1em"></i>
+                  <p>NODE.JS</p>
+                </div>
+                <div id="js">
+                  <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
+                  <p>JAVASCRIPT</p>
+                </div>
+                <div id="MySQL">
+                  <i class="fa-solid fa-database" style="color: #fff; font-size: 1em"></i>
+                  <p>MySQL</p>
+                </div>
+                <div id="link">
+                  <a href="https://github.com/ArielBritezDiaz/flit-application">
+                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
+                    CODE
+                  </a>
+                </div>
+              </div>
+              <a href="https://github.com/ArielBritezDiaz/flit-application">
+                <img src="src/proyects-images/flit.png" alt="flit" title="flit">
+              </a>
+            </article>
+            <article class="p2">
+              <h3>CMF Engines</h3>
+              <p>The perfect e-commerce for colectors and car lovers</p>
+              <div class="stack">
+                <div id="html">
+                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
+                  <p>HTML</p>
+                </div>
+                <div id="css">
+                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
+                  <p>CSS</p>
+                </div>
+                <div id="php">
+                  <i class="fa-brands fa-php" style="color: #fff; font-size: 1em"></i>
+                  <p>PHP</p>
+                </div>
+                <div id="MySQL">
+                  <i class="fa-solid fa-database" style="color: #fff; font-size: 1em"></i>
+                  <p>MySQL</p>
+                </div>
+                <div id="link">
+                  <a href="https://github.com/ArielBritezDiaz/controlAccesoUsuarios">
+                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
+                    CODE
+                  </a>
+                </div>
+              </div>
+              <a href="https://cmfengines.com.ar/">
+                <img src="src/proyects-images/cmf.png" alt="cmf engines" title="cmf engines">
+              </a>
+            </article>
+            <article class="p3">
+              <h3>CMF 3D</h3>
+              <p>An Entrepreneurship landing page. This is an CMF engines provider</p>
+              <div class="stack">
+                <div id="html">
+                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
+                  <p>HTML</p>
+                </div>
+                <div id="css">
+                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
+                  <p>CSS</p>
+                </div>
+                <div id="js">
+                  <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
+                  <p>JAVASCRIPT</p>
+                </div>
+                <div id="link">
+                  <a href="https://github.com/MarianoJSB/cmf3d.github.io">
+                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
+                    CODE
+                  </a>
+                </div>
+              </div>
+              <a href="https://marianojsb.github.io/cmf3d.github.io/">
+                <img src="src/proyects-images/3d.png" alt="cmf 3d" title="cmf 3d">
+              </a>
+            </article>
+            <article class="p4">
+              <h3>CMF Engines C.R.U.D</h3>
+              <p>Desktop application that works as C.R.U.D of CMF engines articles (only code)</p>
+              <div class="stack">
+                <div id="html">
+                  <i class="fa-brands fa-java" style="color: #fff; font-size: 1em"></i>
+                  <p>JAVA</p>
+                </div>
+                <div id="MySQL">
+                  <i class="fa-solid fa-database" style="color: #fff; font-size: 1em"></i>
+                  <p>MySQL</p>
+                </div>
+                <div id="link">
+                  <a href="https://github.com/MarianoJSB/crud-java-jframe">
+                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
+                    CODE
+                  </a>
+                </div>
+              </div>
+              <a href="https://github.com/MarianoJSB/crud-java-jframe">
+                <img src="src/proyects-images/crud.png" alt="crud-cmfengines" title="crud-cmfengines">
+              </a>
+            </article>
+            <article class="p5">
+              <h3>Formula 1 API</h3>
+              <p>Formula 1 API consumption, contains rankings, schedule and drivers information</p>
+              <div class="stack">
+                <div id="html">
+                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
+                  <p>HTML</p>
+                </div>
+                <div id="css">
+                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
+                  <p>CSS</p>
+                </div>
+                <div id="js">
+                  <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
+                  <p>JAVASCRIPT</p>
+                </div>
+                <div id="link">
+                  <a href="https://github.com/MarianoJSB/F1-API.github.io">
+                    <i class="fa-solid fa-link" style="color: #fff; font-size: 1em"></i>
+                    CODE
+                  </a>
+                </div>
+              </div>
+              <a href="https://marianojsb.github.io/F1-API.github.io/">
+                <img src="src/proyects-images/f1.png" alt="f1 api" title="f1 api">
+              </a>
+            </article>
+            <article class="p6">
+              <h3>Gaming Platform</h3>
+              <p>Video game platform for different ages and difficulties</p>
+              <div class="stack">
+                <div id="html">
+                  <i class="fa-brands fa-html5" style="color: #fff; font-size: 1em"></i>
+                  <p>HTML</p>
+                </div>
+                <div id="css">
+                  <i class="fa-brands fa-css3-alt" style="color: #fff; font-size: 1em"></i>
+                  <p>CSS</p>
+                </div>
+                <div id="js">
+                  <i class="fa-brands fa-js" style="color: #fff; font-size: 1em"></i>
+                  <p>JAVASCRIPT</p>
+                </div>
+              </div>
+              <a href="gaming.html">
+                <img src="src/proyects-images/gaming.png" alt="platform" title="platform">
+              </a>
+            </article>
+          </div>
+        </article>
+      </section>
+      <section id="skills">
+        <article class="skills">
+          <div class="title">
+            <p>Ski<span class="light-blue">ll</span>s</p>
+          </div>
+          <div class="hardSkills">
+            <article class="sk1">
+              <h3  data-aos="fade-right">html</h3>
+              <h3  data-aos="fade-down">css</h3>
+              <h3  data-aos="fade-left">javascript</h3>
+            </article>
+            <hr />
+            <article class="sk2">
+              <h3 data-aos="fade-right">java</h3>
+              <h3  data-aos="fade-down">python</h3>
+              <h3 data-aos="fade-left">mYsql</h3>
+            </article>
+            <hr />
+            <article class="sk3">
+              <h3  data-aos="fade-right">php</h3>
+              <h3 data-aos="fade-down">node.js</h3>
+              <h3  data-aos="fade-left">express.js</h3>
+            </article>
+            <hr />
+            <article class="sk4">
+              <h3  data-aos="fade-right">git</h3>
+              <h3  data-aos="fade-left">react.js/native</h3>
+            </article>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section id="contact">
+        <div class="title">
+          <p>Cont<span class="light-blue">ac</span>t</p>
+        </div>
+        <form class="form">
+          <input 
+          type="text"
+          class="fields"
+          placeholder="Full name" 
+          id="name" 
+          />
+          <input type="email" class="fields" placeholder="Email" id="email" />
+          <textarea
+            id="message"
+            cols="100"
+            rows="6"
+            placeholder="Message"
+          ></textarea>
+          <input type="submit" value="Send" class="submit" />
+        </form>
+        <div id="successfully" class="success">
+          <p>¡The email has been sent successfully!</p>
+        </div>
+        <a href="src/CV - Mariano Aguiar.pdf" download class="download"
+          >Download CV
+        </a>
+        <div class="media">
+          <div class="github">
+            <a href="https://github.com/MarianoJSB">
+              <img src="src/social/github.svg" />
+            </a>
+          </div>
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/mariano-aguiar-nahuel/">
+              <img src="src/social/linkedin.svg" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+  <!-- Contact form -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Scroll effect -->
+    <script>
+        AOS.init();
+    </script>
+</html>
