@@ -1,1 +1,0 @@
-document.getElementById("sonido-aplausos").cloneNode().play()
