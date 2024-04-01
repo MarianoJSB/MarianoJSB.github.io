@@ -42,16 +42,14 @@ p{
 
 .g1,
 .g2,
-.g3,
-.g4{
+.g3{
     margin: 20px;
     padding: 10px;
 }
 
 .g1 img:hover,
 .g2 img:hover,
-.g3 img:hover,
-.g4 img:hover{
+.g3 img:hover{
     box-shadow: 0 0.15rem 0.4rem rgba(0,0,0,.3);
     transform: scale(0.97);
 }
