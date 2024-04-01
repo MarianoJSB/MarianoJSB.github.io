@@ -182,8 +182,7 @@ hr {
 .p2 img,
 .p3 img,
 .p4 img,
-.p5 img,
-.p6 img{
+.p5 img{
   width: 750px;
   height: 400px;
   border-radius: 20px;
@@ -194,8 +193,7 @@ hr {
 .p2 img:hover,
 .p3 img:hover,
 .p4 img:hover,
-.p5 img:hover,
-.p6 img:hover{
+.p5 img:hover{
   box-shadow: 0 0.15rem 0.4rem rgba(0,0,0,.3);
   transform: scale(0.95);
 }
@@ -204,8 +202,7 @@ hr {
 .p2,
 .p3,
 .p4,
-.p5,
-.p6{
+.p5{
   display: block;
   margin: 20px auto;
   width: 750px;
@@ -217,8 +214,7 @@ hr {
 .p2 h3,
 .p3 h3,
 .p4 h3,
-.p5 h3,
-.p6 h3{
+.p5 h3{
   font-size: 3em;
   color: #fff;
   font-weight: bold;
@@ -228,8 +224,7 @@ hr {
 .p2 p,
 .p3 p,
 .p4 p,
-.p5 p,
-.p6 p{
+.p5 p{
   margin: 10px 0;
   font-size: 2em;
   color: #fff;
