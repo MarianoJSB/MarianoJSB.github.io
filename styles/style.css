@@ -181,8 +181,7 @@ hr {
 .p1 img,
 .p2 img,
 .p3 img,
-.p4 img,
-.p5 img{
+.p4 img{
   width: 750px;
   height: 400px;
   border-radius: 20px;
@@ -192,8 +191,7 @@ hr {
 .p1 img:hover,
 .p2 img:hover,
 .p3 img:hover,
-.p4 img:hover,
-.p5 img:hover{
+.p4 img:hover{
   box-shadow: 0 0.15rem 0.4rem rgba(0,0,0,.3);
   transform: scale(0.95);
 }
@@ -201,8 +199,7 @@ hr {
 .p1,
 .p2,
 .p3,
-.p4,
-.p5{
+.p4{
   display: block;
   margin: 20px auto;
   width: 750px;
@@ -213,8 +210,7 @@ hr {
 .p1 h3,
 .p2 h3,
 .p3 h3,
-.p4 h3,
-.p5 h3{
+.p4 h3{
   font-size: 3em;
   color: #fff;
   font-weight: bold;
@@ -223,8 +219,7 @@ hr {
 .p1 p,
 .p2 p,
 .p3 p,
-.p4 p,
-.p5 p{
+.p4 p{
   margin: 10px 0;
   font-size: 2em;
   color: #fff;
@@ -232,6 +227,7 @@ hr {
 
 .stack{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .stack div{
@@ -288,8 +284,20 @@ hr {
   background-color: #131313;
 }
 
+#collab{
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 117, 143, .9);
+}
+
 #link a{
   color: #fff;
+}
+
+#collab p{
+  font-size: 1em;
+  margin-bottom: 3px;
+  text-transform: uppercase;
 }
 
 /* Footer / Contact section */
