@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://marianojsb.github.io/sitemap-index.xml
