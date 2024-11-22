@@ -3,7 +3,6 @@ form.addEventListener('submit',eve=>{
 
     eve.preventDefault()
 
-    const successfully = document.getElementById('successfully')
     const name = document.getElementById('name').value
     const email = document.getElementById('email').value
     const message = document.getElementById('message').value
@@ -20,7 +19,7 @@ form.addEventListener('submit',eve=>{
         From : 'mariano.n.aguiar@gmail.com',
         Subject : "Portfolio",
         Body : `${body}`
-    }).then(() => successfully.style.display = "flex");
+    });
 
     form.reset();
 })
